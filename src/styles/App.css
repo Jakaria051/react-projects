@@ -10,3 +10,11 @@
 .global-width {
   padding-left: 30px;
 }
+
+.bold {
+  font-weight: bold;
+}
+
+.grey {
+  color: #918e9b;
+}

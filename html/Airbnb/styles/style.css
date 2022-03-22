@@ -11,6 +11,14 @@
   padding-left: 30px;
 }
 
+.bold {
+  font-weight: bold;
+}
+
+.grey {
+  color: #918e9b;
+}
+
 /* //navbar */
 .logo {
   max-width: 100px;
@@ -52,4 +60,21 @@
 
   /* max-width: 360px;
   line-height: 100%; */
+}
+
+/* Crad  */
+.single--card {
+  width: 175px;
+  font-size: 12px;
+}
+.card--image {
+  width: 100%;
+  border-radius: 9px;
+}
+.card--stats {
+  display: flex;
+  align-items: center;
+}
+.star-img {
+  height: 14px;
 }
