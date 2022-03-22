@@ -63,9 +63,21 @@
 }
 
 /* Crad  */
+.card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+  margin-top: 20px;
+}
 .single--card {
   width: 175px;
   font-size: 12px;
+  display: flex;
+  flex: 0 0 auto; /* it'll not shrink*/
+  flex-direction: column;
+  position: relative;
 }
 .card--image {
   width: 100%;
@@ -77,4 +89,14 @@
 }
 .star-img {
   height: 14px;
+}
+
+.cardBadge {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background: #ffffff;
+  padding: 5px 7px;
+  font-weight: bold;
+  border-radius: 2px;
 }
