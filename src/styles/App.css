@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.globalWidth {
+  padding: 0.5% 5%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.grey {
+  color: #918e9b;
+}
