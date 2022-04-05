@@ -1,16 +1,18 @@
 import React from "react";
-import logo from "../assets/logo.png";
+import headerImg from "../assets/logo.png";
 import classes from "../styles/Navbar.module.css";
 export default function Navbar() {
   return (
     <>
-      <nav className={classes.navbar}>
+      <header className={classes.header}>
         <img
-          src={logo}
-          className={`global-width ${classes.logo}`}
+          src={headerImg}
+          className={`${classes.headerLogo}`}
           alt="airbnb-logo"
         />
-      </nav>
+        <h2 className={classes.headerTitle}>Meme Generator</h2>
+        <h4 className={classes.headerProject}>React Project</h4>
+      </header>
     </>
   );
 }
