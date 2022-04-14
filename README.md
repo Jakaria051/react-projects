@@ -1,8 +1,10 @@
-# dependency package
+# dependency package For E-commerce
 
-### npm install axios react-bootstrap bootstrap
+### npm install axios
 
 ### npm install react-router-dom sweetalert2 --save
+
+### npm install redux react-redux
 
 # Getting Started with Create React App
 
